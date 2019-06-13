@@ -2,10 +2,16 @@
 
 body {
   background: #f1f1f1;
+  text-align: center;
+}
+
+h1 {
+  color: #999;
+  text-shadow: -1px -1px rgb(175, 0, 0);
 }
 
 .navbar {
-  background: #fff;
+  background: rgb(175, 0, 0);
   margin-bottom: 20px;
 }
 
@@ -15,6 +21,8 @@ body {
 }
 
 .search-bar {
+  margin: auto;
+  width: 75%;
   border-radius: 1px;
   background: #fff;
 }
@@ -57,6 +65,12 @@ body {
   padding: 8px;
 }
 
+.video-list-entry:hover {
+ box-shadow: 1px 0px 2px #640500;
+ background-color: #f1f1f1;
+
+}
+
 .video-list-entry-title {
   font-weight: bold;
 }
@@ -69,4 +83,16 @@ body {
 .video-list-entry-detail {
   font-size: 12px;
   color: #999;
+}
+
+.placeHolder {
+  text-align: center;
+  color: #ffd1ce;
+  text-shadow: 1px 1px 1px rgb(179, 145, 145)
+}
+
+.current {
+  border: 2px outset #640500;
+  color: #e62117;
+  background-color: #f1f1f1;
 }
